@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=Russo+One&family=Sigmar&display=swap");
+.avatar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+.js {
+  font-family: Outfit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.16px;
+  letter-spacing: 0px;
+  transition: .6s ease-in-out;
+  cursor: pointer;
+  color: white;
+}
+.js:hover{
+    color: rgba(0, 255, 248, 1);
+}

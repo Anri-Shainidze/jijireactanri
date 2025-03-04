@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=Russo+One&family=Sigmar&display=swap');
+h1 {
+  color: rgba(255, 255, 255, 1);
+  font-family: Outfit;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27.72px;
+  letter-spacing: 0px;
+  transition: .6s ease-in-out;
+  cursor: pointer;
+}
+h1:hover{
+    color: rgba(0, 255, 248, 1);
+}
+p {
+  font-family: Outfit;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: rgba(139, 172, 217, 1);
+}
+.info-card {
+  background-color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+.eth {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+h2 {
+  font-family: Outfit;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18.9px;
+  letter-spacing: 0px;
+  color: rgba(0, 255, 248, 1);
+}
+.eth-clock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+span {
+  font-family: Outfit;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18.9px;
+  letter-spacing: 0px;
+  color: rgba(139, 172, 217, 1);
+  transition: .6s ease-in-out;
+  cursor: pointer;
+}
+span:hover{
+    color: rgba(0, 255, 248, 1);
+}
